@@ -1,6 +1,6 @@
 # LogStashPANCL
 LogStash PAN OS logs to Azure Sentinel for Modified Custom Tables
-For Windows only Platforms/Infrastructure where no Linux servers exist or can be used.  
+For Windows only Platforms/Infrastructure where no Linux syslog servers exist or can be used.  
 This Data connector has been modified to point to the custom tables in the Azure Log Analytics table.  This addresses issues when using Windows with Logstash to feed logs
 from PAN's.  These go into a custom Table which the existing PAN Connector points to the CommonSecurityLog Tables so does not go green.
 
